@@ -12,7 +12,7 @@ public class divided_zero{
         System.out.println("ENTER SECOND NUMBER:");
         int num1 = nm.nextInt();
 
-        if (num1 = 0){
+        if (num1 == 0){
             System.out.println("Can't divide by zero!!");
         } else {
             int divide = num / num1;
